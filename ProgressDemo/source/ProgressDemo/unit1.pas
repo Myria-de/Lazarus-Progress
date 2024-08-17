@@ -263,6 +263,11 @@ procedure TForm1.btnStopClick(Sender: TObject);
 begin
   pb.Visible:=False;
   Timer1.Enabled:=False;
+  Application.Title:='Progress-Demo';
+  Form1.Caption:='Progress-Demo';
+  {$IFDEF WINDOWS}
+  GlobalTaskbarProgress.Progress:=0;
+  {$ENDIF}
   {$IFDEF linux}
   If rg1.ItemIndex=0 Then
    SendProgress(0,-1) //Zähler ausblenden
@@ -311,6 +316,7 @@ begin
      begin
     Timer1.Enabled:=False;
     Application.Title:='Progress-Demo';
+    Form1.Caption:='Progress-Demo';
     GlobalTaskbarProgress.Progress:=0;
     pb.Visible:=False;
      if chkNotify.Checked Then

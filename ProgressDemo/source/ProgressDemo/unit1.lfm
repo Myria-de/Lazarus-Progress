@@ -2126,7 +2126,6 @@ object Form1: TForm1
   }
   OnClose = FormClose
   OnCreate = FormCreate
-  LCLVersion = '3.4.0.0'
   object btnStart: TButton
     Left = 9
     Height = 25
@@ -2138,16 +2137,16 @@ object Form1: TForm1
   end
   object edtProgress: TEdit
     Left = 97
-    Height = 34
+    Height = 35
     Top = 38
     Width = 248
     TabOrder = 1
   end
   object Label1: TLabel
     Left = 9
-    Height = 17
+    Height = 18
     Top = 46
-    Width = 77
+    Width = 76
     Caption = 'Fortschritt:'
   end
   object rg1: TRadioGroup
@@ -2175,7 +2174,7 @@ object Form1: TForm1
   end
   object edtStartValue: TEdit
     Left = 97
-    Height = 34
+    Height = 35
     Top = 8
     Width = 248
     TabOrder = 3
@@ -2183,7 +2182,7 @@ object Form1: TForm1
   end
   object Label2: TLabel
     Left = 9
-    Height = 17
+    Height = 18
     Top = 16
     Width = 69
     Caption = 'Startwert:'
@@ -2265,7 +2264,7 @@ object Form1: TForm1
     Left = 250
     Height = 23
     Top = 242
-    Width = 167
+    Width = 166
     Caption = 'notify-send benutzen'
     TabOrder = 9
   end
