@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=ProgressDemo
+GenericName=ProgressDemo
+Comment=Lazarus ProgressDemo
+Categories=Application
+Exec=%%BINDIR%%/ProgressDemo
+Hidden=false
+Icon=%%BINDIR%%/ProgressDemo.png
+Terminal=false
+Type=Application
+X-GNOME-UsesNotifications=true

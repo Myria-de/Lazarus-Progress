@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=TeaTimerDemo
+GenericName=TeaTimerDemo
+Comment=Lazarus TeaTimerDemo
+Categories=Application
+Exec=%%BINDIR%%/TeaTimerDemo
+Hidden=false
+Icon=%%BINDIR%%/TeaTimerDemo.png
+Terminal=false
+Type=Application
+X-GNOME-UsesNotifications=true
