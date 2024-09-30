@@ -42,6 +42,9 @@ Starten Sie das Programm „ProgressDemo“ und klicken Sie auf „Start“. Das
 
 Unter Windows kann man über die Schaltflächen unter „Nur Windows“ einen grünen oder roten Kreis über die Taskleistenschaltfläche legen, der einen bestimmten Status signalisieren kann. Bei Auswahl von „Numerischer Wert“ ersetzt ProgessDemo einfach den Programmtitel durch den Wert des Zählers. Der ist auf der Schaltfläche aber nur sichtbar, wenn die Taskleiste für die Anzeige von Beschriftungen konfiguriert ist.
 ![408_05_ProgressDemo](https://github.com/user-attachments/assets/3316c2d7-0723-4bd4-9cef-488cc261bf0c)
+
+Varianten für Fortschrittsanzeigen: ProgressDemo kann numerische Werte und Fortschrittsbalken anzeigen. Die Funktionen werden von Ubuntu (Gnome), KDE und dem Plank-Dock unterstützt.
+
 ![408_03_Leisten](https://github.com/user-attachments/assets/576018c5-c19c-46b9-bbf0-92f6aeb5083e)
 
 Docks und Taskleisten: KDE, Ubuntu, Linux Mint und das Plank-Dock (von oben nach unten) können Fortschrittsbalken oder Zähler anzeigen, die sich von einer Anwendung steuern lassen.
