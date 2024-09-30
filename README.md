@@ -1,5 +1,5 @@
 # Lazarus-Progress
-Pascal-Beispielcode für die Fortschrittsanzeige unter Linux und Windows
+Pascal-Beispielcode für die Fortschrittsanzeige unter Linux (Gnome, KDE) und Windows
 ## Lazarus/Free Pascal installieren
 
 Die Installation der Entwicklungsumgebung erfolgt am schnellsten mit dem Tool Fpcupdeluxe (https://m6u.de/fpcup). Laden Sie die Datei „fpcupdeluxe-x86_64-linux“ für ein 64-Bit-Linux. Machen Sie die Datei ausführbar. Im Dateimanager wählen Sie im Kontextmenü der Datei „Eigenschaften“, gehen auf Zugriffsrechte und setzen ein Häkchen vor „Datei als Programm ausführen“.
@@ -33,7 +33,8 @@ Aktuelle Linux-Systeme können den Fortschritt im Dock-Icon (Ubuntu Gnome) oder 
 Für systemnahe Aufgaben verwendet man auch in Lazarus Funktionen aus der jeweiligen C-Programmbibliothek. Die lassen sich jedoch nicht direkt, sondern nur über Programmcode ansprechen, der die C-Aufrufe in Pascal umsetzt. Free Pascal verfügt bereits über zahlreiche Module, die das für die unterschiedlichen Betriebssysteme leisten. Für die Fortschrittsanzeige in den Dock-Icons ist bei Ubuntu die Launcher-API (libunity) zuständig, für die es aber bisher noch keine Pascal-Übersetzung gibt. Die Bibliothek libunity vereinfacht allerdings nur die Aufrufe der Dbus-API, die von FPC unterstützt wird und sich damit für die Fortschrittsanzeigen nutzen lässt.
 
 Für die Systembenachrichtigungen gibt es mit libnotify bereits ein Pascal-Modul, weshalb sich die Aufrufe mit wenig Programmcode umsetzen lassen.
-Hinweis: Linux Mint verwendet Libxapp für die Darstellung der Fortschrittsanzeige, wofür bisher kein Pascal-Modul verfügbar ist. Ein alternativer Programmstarter wie Plank-Dock (siehe www.pcwelt.de/1173795) bietet die gleichen Funktionen wie das Ubuntu-Dock oder KDE.
+
+**Hinweis:** Linux Mint verwendet Libxapp für die Darstellung der Fortschrittsanzeige, wofür bisher kein Pascal-Modul verfügbar ist. Ein alternativer Programmstarter wie Plank-Dock (siehe www.pcwelt.de/1173795) bietet die gleichen Funktionen wie das Ubuntu-Dock oder KDE.
 
 **Beispielprogramm ausprobieren:** Klicken Sie auf „Code“ und danach auf „Download ZIP“. Entpacken Sie aus dem Archiv die Ordner „ProgressDemo“ und „TeaTimerDemo“ in den Lazarus-Projektordner „~/fpcupdeluxe/projects“. Starten Sie das Script „install.sh“ aus dem Ordner „ProgressDemo/install“. Es erzeugt den Programmstarter „ProgressDemo.desktop“ im Ordner „.local/share/applications“, die Pfadangaben darin verweisen auf den Installationsordner. Die „.desktop“-Datei ist zwingende Voraussetzung dafür, dass der Desktop den Fortschritt anzeigt.
 
