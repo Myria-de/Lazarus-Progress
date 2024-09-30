@@ -27,6 +27,8 @@ edtTest.Text:='Hallo Welt';
 end;
 ```
 ![408_02_Obji](https://github.com/user-attachments/assets/e4baa4bc-e8cd-4d68-b2ae-6e71f989bc25)
+
+Grafische Oberfläche erstellen: Im Formulareditor fügen Sie Bedienelemente ein. Eigenschaften wie „Name“ bearbeiten Sie im Objektinspektor auf der linken Seite.
 ## Fortschrittsanzeigen und Meldungen
 Aktuelle Linux-Systeme können den Fortschritt im Dock-Icon (Ubuntu Gnome) oder der Taskleistenschaltfläche (Cinnamon, KDE) anzeigen. Das ist beispielsweise zu sehen, wenn Sie Dateien über den Dateimanager kopieren. Beim Standard-Gnome (Fedora, Debian) signalisieren die Programmicons keinen Fortschritt. Das würde auch wenig Sinn ergeben, weil das Dock nur nach einem Klick auf „Aktivitäten“ sichtbar wird. Wer sich die gleichen Funktionen wie bei Ubuntu wünscht, installiert die Gnome-Erweiterung Dash to Dock (siehe www.pcwelt.de/1148753).
 ## Beispielprogramm für Fortschrittsanzeigen
