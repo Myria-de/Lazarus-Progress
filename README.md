@@ -56,6 +56,8 @@ Stellen Sie eine Zeit unter „Stunden“, „Minuten“ und/oder „Sekunden“
 
 Das Ende des Countdowns lässt sich akustisch signalisieren, indem Sie ein Häkchen vor „Audio-Benachrichtigung“ setzen und darunter eine Audiodatei angeben. „Fenster für Benachrichtigung anzeigen“ blendet nach Ablauf ein Fenster mit dem unter „Meldungstext“ eingetragenen Text ein. Ist „Systembenachrichtigung (Notify)“ aktiviert, wird die Meldung an das System gesendet.
 ![408_06_TeaTimerDemo](https://github.com/user-attachments/assets/f18d84ce-180e-499f-832c-fd064da4a296)
+
+Fünf-Minuten-Tee: TeaTimerDemo startet einen Countdown und bietet dafür eine Fortschrittsanzeige. Über das Ende kann man sich per Audio oder Benachrichtigung informieren lassen.
 ## Die Beispielprogramme selbst kompilieren
 Damit sich die Programme kompilieren lassen, müssen Sie mit
 ```
